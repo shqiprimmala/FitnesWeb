@@ -1,0 +1,606 @@
+@font-face {
+  font-family: "Oswald";
+  src: url("./font/static/Oswald-Bold.ttf"),
+    url("./font/static/Oswald-Bold.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  background-color: black;
+}
+
+.body {
+  background-image: url(./foto/background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 900px;
+  color: white;
+}
+
+.body-MyPlan {
+  background-image: url(./foto/hero2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 45rem;
+}
+
+.navbar {
+  color: white;
+  font-weight: 500;
+  font-size: 2rem;
+  padding: 39px 9px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  gap: 7rem;
+  text-transform: uppercase;
+  font-family: "Oswald";
+}
+.navbar a:hover {
+  border-bottom: 3px solid white;
+} 
+
+.w3-animate-bottom{
+  position:relative;
+  animation:animatebottom 1s
+}
+
+.w3-animate-bottom1{
+  position:relative;
+  animation:animatebottom 1.5s
+}
+
+.w3-animate-bottom2{
+  position:relative;
+  animation:animatebottom 2s
+}
+.w3-animate-bottom3{
+  position:relative;
+  animation:animatebottom 3s
+} 
+
+
+@keyframes animatebottom{from{bottom:-300px;opacity:0} to{bottom:0;opacity:1}}
+
+.w3-animate-left3{
+  position:relative;
+  animation:animateleft 2s
+}
+
+.w3-animate-left2{
+  position:relative;
+  animation:animateleft 1.5s
+}
+
+.w3-animate-left{
+  position:relative;
+  animation:animateleft 1s
+}
+@keyframes animateleft{from{left:-300px;opacity:0} to{left:0;opacity:1}}
+
+
+
+.w3-animate-fading{
+  animation:fading 10s infinite
+}
+
+@keyframes fading{0%{opacity:0}50%{opacity:1}100%{opacity:0}}
+
+.trasparent {
+  
+  font-size: 70px;
+  font-family: "Oswald";
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+}
+.bold {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 140px;
+  margin-bottom: 40px;
+  font-family: "Oswald";
+}
+.Button1 {
+  border: 2px solid #fff;
+  display: block;
+
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.5rem;
+  background-color: transparent;
+  padding: 15px 50px;
+}
+.Button1 span {
+  position: relative;
+  z-index: 1;
+  background-color: transparent;
+}
+.Button1:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 470%;
+  width: 140%;
+  background: #ff0000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  -webkit-transform: translateX(-100%) translateY(-25%) rotate(45deg);
+  transform: translateX(-100%) translateY(-25%) rotate(45deg);
+}
+.Button1:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+.text {
+  margin-top: 15rem;
+  margin-left: 10rem;
+  color: white;
+  
+}
+
+.box {
+  margin-top: 2rem;
+  width: 100%;
+  height: 15rem;
+  text-align: center;
+  font-size: 70px;
+  font-family: "Oswald";
+  font-weight: 700;
+  text-transform: uppercase;
+  background: linear-gradient(145deg, #e0e0e0, #8d8d8d71);
+  box-shadow: 20px 20px 60px #6969698f, -20px -20px 60px #e0e0e0b0;
+}
+
+.inner {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 1rem;
+  background-color: white;
+}
+.use-NE {
+  font-family: "Oswald";
+  color: white;
+  margin-top: -20rem;
+  margin-left: 15rem;
+  text-transform: uppercase;
+}
+.use-name {
+  font-size: 70px;
+  font-weight: 700;
+}
+.use-email {
+  font-family: "Oswald";
+  font-size: 50px;
+}
+.workup {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5rem;
+}
+
+.images {
+  width: 15rem;
+  height: 15rem;
+}
+.text1 {
+  font-size: 50px;
+  font-family: "Oswald";
+  margin: 2rem;
+  width: 20rem;
+  height: 15rem;
+}
+
+.Button2 {
+  position: fixed;
+  top: 90%;
+  left: 80%;
+  transform: translate(-50%, -50%);
+}
+.Button2 button {
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all 0.35s;
+}
+
+.Button2 button span {
+  position: relative;
+  z-index: 2;
+}
+
+.Button2 button:after {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all 0.35s;
+}
+.Button2 button:hover {
+  color: #fff;
+}
+
+.Button2 button:hover:after {
+  width: 100%;
+}
+#ContactText {
+  color: white;
+  font-size: 7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Oswald";
+  margin-top: 15rem;
+  margin-left: 10rem;
+}
+.contact-titel {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 0rem;
+  padding: 20rem;
+  margin-left: 40rem;
+}
+
+#message {
+  width: 100%;
+  height: 20rem;
+  color: #999999;
+  font-weight: 300;
+  border: 1px solid #e5e6e9;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.imput {
+  height: 5rem;
+  color: #999999;
+  font-weight: 300;
+  border: 1px solid #e5e6e9;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+.i1 {
+  grid-area: name;
+}
+.i2 {
+  grid-area: email;
+}
+.i3 {
+  grid-area: subject;
+}
+.i4 {
+  grid-area: message;
+}
+.i5 {
+  grid-area: tetx;
+}
+.sibmit-bt {
+  grid-area: submit;
+}
+
+.form {
+  display: grid;
+  width: 50%;
+  gap: 1.5rem;
+  grid-template-areas:
+    "tetx tetx tetx tetx tetx tetx "
+    "message message message message message message"
+    "name name name email email email"
+    "subject subject subject subject subject subject"
+    "submit submit submit submit submit submit";
+}
+
+.info-tex {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  font-size: xx-large;
+}
+
+.i5 {
+  font-size: 3rem;
+  font-family: "Oswald";
+}
+.btex {
+  color: #2a2a2a;
+  font-size: 2rem;
+  font-family: "Oswald";
+  font-weight: 500;
+}
+
+.htex {
+  color: #8a8a8a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.5rem;
+  margin-bottom: 3rem;
+}
+.info {
+  margin-left: 12rem;
+  margin-top: 6rem;
+}
+
+.sibmit-bt {
+  padding: 18px 44px;
+  font-family: "Oswald";
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+.sibmit-bt:hover {
+  background-color: #ff0000;
+  color: #fff !important;
+  border: 1px solid #ff0000;
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+ 
+}
+.about-box {
+  width: 40rem;
+  margin-top: 1rem;
+}
+.about-box img {
+  width: 100%;
+}
+
+.about-box h1 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 3rem;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+}
+.about-box p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.App {
+  background-color: black;
+  height: 100rem;
+}
+form {
+  height: 720px;
+  width: 600px;
+  background-color: rgba(255, 255, 255, 0.13);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  border-radius: 10px;
+  backdrop-filter: blur(10px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  padding: 50px 35px;
+}
+form * {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  outline: none;
+  border: none;
+}
+form h3 {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 42px;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 30px;
+  font-size: 2rem;
+  font-weight: 500;
+}
+input {
+  display: block;
+  height: 50px;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.07);
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 2rem;
+  font-weight: 300;
+}
+::placeholder {
+  color: #b3b3b3;
+}
+.log-bu {
+  margin-top: 50px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #080710;
+  padding: 15px 0;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.social {
+  margin-top: 30px;
+  display: flex;
+}
+.social a {
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255, 255, 255, 0.27);
+  color: #eaf0fb;
+  text-align: center;
+  text-decoration: none;
+}
+.social a:hover {
+  background-color: rgba(255, 255, 255, 0.47);
+}
+.social .fb {
+  width: 50%;
+  margin-left: 25px;
+  height: 4rem;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.social .go {
+  width: 50%;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+}
+.week {
+  margin-left: 80rem;
+  margin-top: 10rem;
+  font-size: 15rem;
+  font-family: "Oswald";
+  font-weight: 700;
+  text-transform: uppercase;
+  -webkit-text-stroke: 1px #f6f7f8;
+  -webkit-text-fill-color: transparent;
+}
+.checkbox1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.button3 {
+  margin-left: 4rem;
+}
+.bm-burger-button {
+  display: none;
+}
+.contact-titel{
+  background-color: white;
+} 
+.hi {
+  background-color: white;
+  
+}
+@media only screen and (max-width: 130rem) {
+
+  .week {
+    margin-left: 30rem;
+  }
+.bold{
+  font-size: 70px;
+
+  
+}
+.about {
+ flex-wrap: wrap;
+}
+.contact-titel{
+  margin-left: 20rem;
+  
+}
+}
+@media only screen and (max-width: 80rem){
+  .week {
+    margin-left: 10rem;
+  }
+  .info {
+    margin-left: 1rem;
+    
+  }
+  .contact-titel{
+    flex-direction: column;
+  }
+  .inner {
+    flex-wrap: wrap;
+    
+   }
+  .workup {
+    width: 10rem;
+  }
+  .text1 {
+    font-size: 3rem;
+  }
+ 
+}
+
+ @media only screen and (max-width: 50rem) {
+
+  .workup {
+    width: 5rem;
+  }
+  .text1 {
+    font-size: 2rem;
+  }
+  
+  
+  .bm-burger-button{
+    display: block;
+  }
+  .bold{
+    font-size: 50px;
+    
+  
+  }
+  .contact-titel{
+    margin-left: 0rem;
+   
+  }
+  .info {
+    margin-left: 1rem;
+  }
+  .navbar {
+    display: none;
+ 
+  }
+  .text {
+    margin-top: 0rem;
+  }
+   .trasparent {
+    padding-top: 20rem;
+   }
+ #ContactText {
+  margin-top: 0;
+  padding-top: 10rem;
+  padding-left: 0rem;
+ }
+ .inner {
+  flex-wrap: wrap;
+  
+ }
+ .week {
+  margin-left: 1rem;
+  font-size: 15rem;
+}
+
+
+  
+  
+ }

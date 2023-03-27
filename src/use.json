@@ -1,0 +1,140 @@
+[
+    {
+        "id":1,
+        "name":"shqiprim",
+        "email":"shqiprim.mala@gmail.com",
+        "day1": [
+            {
+                  "id": 1,
+            "foto": "images/Barbell-incline-pres.png",
+            "title": "Barbell incline pres",
+            "set": 6,
+            "reps": 8,
+            "kg" : 20
+            
+        },
+        {
+            "id": 2,
+            "foto": "images/Flat-BarBell-Press.png",
+            "title": "Flat BarBell Press",
+            "set": 3,
+            "reps": 8,
+            "kg" : 20
+        
+        },
+        {
+            "id": 3,
+            "foto": "images/Machine-fly.png",
+            "title": "Machine fly",
+            "set": 3,
+            "reps": 8,
+            "kg" : 20
+        
+        },
+        {
+            "id": 4,
+            "foto": "images/barbell-curi.png",
+            "title": "barbell curi",
+            "set": 2,
+            "reps": 8,
+            "kg" : 20
+        
+        },
+        {
+            "id": 5,
+            "foto": "images/preacher-curls.png",
+            "title": "preacher curls",
+            "set": 2,
+            "reps": 8,
+            "kg" : 20
+        
+        }
+            
+        ],
+        "day3": [
+            {
+                "id": 1,
+                "foto": "images/close-grip-pull.png",
+                "title": "close grip pull",
+                "set": 3,
+                "reps": 10,
+                "kg" : 20
+            
+            },
+            {
+                "id": 2,
+                "foto": "images/cable-row.png",
+                "title": "cable row",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 3,
+                "foto": "images/pullovers.png",
+                "title": "pullovers",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 4,
+                "foto": "images/tricep-Extension.png",
+                "title": "tricep Extension",
+                "set": 4,
+                "reps": 8,
+                "kg" : 20
+            
+            }
+        ],
+        "day5": [
+            {
+                "id": 1,
+                "foto": "images/Shoulder-press-Maschine.png",
+                "title": "Shoulder press Maschine",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 2,
+                "foto": "images/Single-Cable-Lateral-Raise.png",
+                "title": "Single Cable Lateral Raise",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 3,
+                "foto": "images/Leg-Extensions.png",
+                "title": "Leg Extensions",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 4,
+                "foto": "images/Leg-Press.png",
+                "title": "Leg Press",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            },
+            {
+                "id": 5,
+                "foto": "images/sitting-raises.png",
+                "title": "sitting raises",
+                "set": 3,
+                "reps": 8,
+                "kg" : 20
+            
+            }
+        ]
+    }
+]
